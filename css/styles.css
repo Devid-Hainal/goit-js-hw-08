@@ -13,11 +13,14 @@
   max-width: 360px;
 }
 
+.gallery-link {
+}
+
 .gallery-image {
   max-width: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
-  cursor: url("../bluePoint.svg"), pointer;
+  cursor: url('../bluePoint.svg'), pointer;
 }
 
 .gallery-image:hover {
